@@ -20,7 +20,7 @@ const ZHANANG_CONFIG = {
   domain: "https://zhanangbhoomi.org",
 
   // Official Contact Numbers (Real Data from Posters)
-  phone: "+91 98229 46598 / +91 94213 39911",
+  phone: "+91 98229 46598",
   phonePrimary: "+91 98229 46598",
   phoneSecondary: "+91 94213 39911",
   whatsappNumber: "919822946598",
