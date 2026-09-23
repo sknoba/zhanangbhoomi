@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="awardGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#997509"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#awardGold)" stroke-width="4"/>
+  <circle cx="100" cy="100" r="76" fill="#4A1525" stroke="url(#awardGold)" stroke-width="2"/>
+  
+  <!-- Laurel Wreath -->
+  <path d="M50 120 C40 90 60 50 100 45 C140 50 160 90 150 120" fill="none" stroke="url(#awardGold)" stroke-width="3" stroke-linecap="round"/>
+  <!-- Star -->
+  <polygon points="100,65 106,80 122,80 109,90 114,105 100,95 86,105 91,90 78,80 94,80" fill="url(#awardGold)"/>
+  
+  <text x="100" y="130" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="14" font-weight="700">RECOGNITION</text>
+  <text x="100" y="148" text-anchor="middle" fill="#D97706" font-family="'Inter', sans-serif" font-size="10" font-weight="600">ZHANANGBHOOMI</text>
+</svg>

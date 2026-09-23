@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F3E5AB"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#AA820A"/>
+    </linearGradient>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#641F33"/>
+      <stop offset="100%" stop-color="#360E1A"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Wheel Ring -->
+  <circle cx="50" cy="50" r="44" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+  <circle cx="50" cy="50" r="38" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-dasharray="2, 4"/>
+  
+  <!-- 8 Dharma Spokes -->
+  <g stroke="url(#goldGrad)" stroke-width="2">
+    <line x1="50" y1="6" x2="50" y2="94"/>
+    <line x1="6" y1="50" x2="94" y2="50"/>
+    <line x1="19" y1="19" x2="81" y2="81"/>
+    <line x1="19" y1="81" x2="81" y2="19"/>
+  </g>
+  
+  <!-- Center Lotus Emblem -->
+  <circle cx="50" cy="50" r="22" fill="url(#burgundyGrad)" stroke="url(#goldGrad)" stroke-width="2"/>
+  
+  <!-- Stylized Lotus Petals -->
+  <path d="M50 32 Q58 42 50 52 Q42 42 50 32 Z" fill="url(#goldGrad)"/>
+  <path d="M50 32 Q62 38 56 50 Q46 48 50 32 Z" fill="url(#goldGrad)" opacity="0.85"/>
+  <path d="M50 32 Q38 38 44 50 Q54 48 50 32 Z" fill="url(#goldGrad)" opacity="0.85"/>
+  <circle cx="50" cy="50" r="4" fill="#4A1525"/>
+</svg>

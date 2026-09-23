@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AA820A"/>
+      <stop offset="100%" stop-color="#4A1525"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g7)"/>
+  <circle cx="400" cy="240" r="90" fill="none" stroke="#F3E5AB" stroke-width="4"/>
+  <text x="400" y="440" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600">Environmental Excellence Award</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FDFBF7" font-family="'Inter', sans-serif" font-size="16" font-weight="500">Recognized for eco-friendly monastery design</text>
+</svg>

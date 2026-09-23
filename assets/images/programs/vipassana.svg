@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1525"/>
+      <stop offset="100%" stop-color="#2D0A14"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad)"/>
+  <circle cx="300" cy="180" r="110" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3"/>
+  <!-- Meditation Silhouette -->
+  <path d="M300 110 C310 110 318 118 318 128 C318 138 310 146 300 146 C290 146 282 138 282 128 C282 118 290 110 300 110 Z M300 152 C325 152 342 165 348 190 L355 220 C355 225 350 230 340 230 L260 230 C250 230 245 225 245 220 L252 190 C258 165 275 152 300 152 Z" fill="#D4AF37"/>
+  <text x="300" y="310" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600">Vipassana Silent Retreat</text>
+  <text x="300" y="340" text-anchor="middle" fill="#D97706" font-family="'Inter', sans-serif" font-size="14" font-weight="500">Self-Observation &amp; Pure Mindfulness</text>
+</svg>

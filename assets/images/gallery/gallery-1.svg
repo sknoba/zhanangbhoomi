@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1525"/>
+      <stop offset="100%" stop-color="#360E1A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g1)"/>
+  <circle cx="400" cy="270" r="160" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3"/>
+  <path d="M400 160 C415 160 425 170 425 185 C425 200 415 210 400 210 C385 210 375 200 375 185 C375 170 385 160 400 160 Z M400 220 C435 220 460 238 468 275 L478 320 L322 320 L332 275 C340 238 365 220 400 220 Z" fill="#D4AF37"/>
+  <text x="400" y="440" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600">Morning Meditation Hall</text>
+  <text x="400" y="480" text-anchor="middle" fill="#D97706" font-family="'Inter', sans-serif" font-size="16" font-weight="500">Deep silence and collective mindfulness practice</text>
+</svg>

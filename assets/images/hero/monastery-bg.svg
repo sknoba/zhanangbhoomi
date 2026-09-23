@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1F1F1F"/>
+      <stop offset="50%" stop-color="#360E1A"/>
+      <stop offset="100%" stop-color="#2D5A27"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="600" fill="url(#bgGrad)"/>
+  
+  <!-- Decorative Lotus Mandala Circles -->
+  <g stroke="#D4AF37" stroke-width="1" fill="none" opacity="0.12" transform="translate(600, 300)">
+    <circle r="220" stroke-dasharray="4, 8"/>
+    <circle r="180"/>
+    <circle r="140" stroke-dasharray="2, 4"/>
+    <circle r="100"/>
+    <circle r="60"/>
+  </g>
+</svg>

@@ -1,0 +1,6 @@
+# robots.txt for https://zhanangbhoomi.org
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://zhanangbhoomi.org/sitemap.xml

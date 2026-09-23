@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="gradSad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3E2723"/>
+      <stop offset="100%" stop-color="#4A1525"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gradSad)"/>
+  <circle cx="300" cy="180" r="100" fill="none" stroke="#D4AF37" stroke-width="2" opacity="0.3"/>
+  <!-- Yin Yang / Mind Body Balance Icon -->
+  <circle cx="300" cy="180" r="45" fill="none" stroke="#D4AF37" stroke-width="3"/>
+  <path d="M300 135 A 22.5 22.5 0 0 0 300 180 A 22.5 22.5 0 0 1 300 225 A 45 45 0 0 0 300 135 Z" fill="#D4AF37"/>
+  <circle cx="300" cy="157.5" r="6" fill="#3E2723"/>
+  <circle cx="300" cy="202.5" r="6" fill="#D4AF37"/>
+  <text x="300" y="310" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600">Mind Body Balancing Sadhana</text>
+  <text x="300" y="340" text-anchor="middle" fill="#D97706" font-family="'Inter', sans-serif" font-size="14" font-weight="500">Holistic Spiritual Harmonization</text>
+</svg>

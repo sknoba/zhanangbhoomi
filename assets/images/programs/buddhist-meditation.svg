@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="gradBud" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5C1D2E"/>
+      <stop offset="100%" stop-color="#AA820A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gradBud)"/>
+  <!-- Dharma Wheel Motif -->
+  <g fill="none" stroke="#F3E5AB" stroke-width="2.5" opacity="0.6" transform="translate(300, 180)">
+    <circle r="60"/>
+    <circle r="48" stroke-dasharray="2, 4"/>
+    <line x1="-60" y1="0" x2="60" y2="0"/>
+    <line x1="0" y1="-60" x2="0" y2="60"/>
+    <line x1="-42" y1="-42" x2="42" y2="42"/>
+    <line x1="-42" y1="42" x2="42" y2="-42"/>
+    <circle r="12" fill="#F3E5AB"/>
+  </g>
+  <text x="300" y="310" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600">Buddhist Meditation &amp; Dhamma</text>
+  <text x="300" y="340" text-anchor="middle" fill="#FDFBF7" font-family="'Inter', sans-serif" font-size="14" font-weight="500">Traditional Teachings &amp; Anapanasati</text>
+</svg>

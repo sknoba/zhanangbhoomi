@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="gradYog" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A3B32"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#gradYog)"/>
+  <circle cx="300" cy="180" r="95" fill="none" stroke="#F3E5AB" stroke-width="2" opacity="0.3"/>
+  <path d="M300 120 C306 120 312 126 312 134 C312 142 306 148 300 148 C294 148 288 142 288 134 C288 126 294 120 300 120 Z M300 154 C318 154 335 165 340 185 L360 215 C363 220 358 225 350 223 L325 210 L300 240 L275 210 L250 223 C242 225 237 220 240 215 L260 185 C265 165 282 154 300 154 Z" fill="#F3E5AB"/>
+  <text x="300" y="310" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="24" font-weight="600">Meditation &amp; Yoga</text>
+  <text x="300" y="340" text-anchor="middle" fill="#FDFBF7" font-family="'Inter', sans-serif" font-size="14" font-weight="500">Gentle Movement &amp; Breathwork</text>
+</svg>

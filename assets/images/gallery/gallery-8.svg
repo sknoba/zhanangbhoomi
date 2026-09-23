@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A1525"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g8)"/>
+  <rect x="330" y="160" width="140" height="140" rx="16" fill="rgba(255,255,255,0.15)" stroke="#F3E5AB" stroke-width="2"/>
+  <text x="400" y="440" text-anchor="middle" fill="#F3E5AB" font-family="'Playfair Display', Georgia, serif" font-size="28" font-weight="600">5-Day Special Medical Meditation Camp</text>
+  <text x="400" y="480" text-anchor="middle" fill="#FDFBF7" font-family="'Inter', sans-serif" font-size="16" font-weight="500">Mind-Body balancing and therapeutic relaxation</text>
+</svg>
