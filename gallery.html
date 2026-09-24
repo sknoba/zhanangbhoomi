@@ -88,105 +88,39 @@
   <main id="main-content">
     <section class="section-padding">
       <div class="container">
-        <!-- Category Filter Buttons -->
-        <div class="gallery-filters reveal">
-          <button type="button" class="gallery-filter-btn active" data-filter="all" data-i18n="filter_all">All Photos</button>
-          <button type="button" class="gallery-filter-btn" data-filter="monastery" data-i18n="filter_monastery">Monastery &amp; Pagoda</button>
-          <button type="button" class="gallery-filter-btn" data-filter="events" data-i18n="filter_events">Sacred Statues &amp; Flags</button>
-          <button type="button" class="gallery-filter-btn" data-filter="nature" data-i18n="filter_nature">Nature &amp; Forest</button>
-          <button type="button" class="gallery-filter-btn" data-filter="programs" data-i18n="filter_programs">Meditation Programs</button>
-          <button type="button" class="gallery-filter-btn" data-filter="vipassana" data-i18n="filter_vipassana">Vipassana Camps</button>
+        
+        <!-- Gallery Toolbar (Categories + Controls Bar) -->
+        <div class="gallery-toolbar reveal">
+          <!-- Scrollable Category Filter Tabs -->
+          <div class="gallery-filters-wrapper">
+            <nav class="gallery-filters" id="gallery-category-filters" aria-label="Gallery Category Filters">
+              <!-- Dynamically rendered by gallery.js -->
+            </nav>
+          </div>
+
+          <!-- Controls Bar (Search Input + View Switcher) -->
+          <div class="gallery-controls-bar">
+            <div class="gallery-search-box">
+              <span class="gallery-search-icon">🔍</span>
+              <input type="search" 
+                     id="gallery-search-input" 
+                     class="gallery-search-input" 
+                     placeholder="Search albums or photos..." 
+                     aria-label="Search albums or photos"
+                     data-i18n-placeholder="gallery_search_placeholder">
+            </div>
+            <div class="gallery-view-switcher" role="group" aria-label="Gallery View Mode">
+              <button type="button" class="view-btn active" id="btn-view-albums" data-i18n="gallery_view_albums">Albums View</button>
+              <button type="button" class="view-btn" id="btn-view-photos" data-i18n="gallery_view_photos">All Photos Grid</button>
+            </div>
+          </div>
         </div>
 
-        <div class="gallery-grid">
-
-          <!-- Real Image 1: Ashoka Stambha & Pagoda -->
-          <div class="gallery-item reveal delay-100" data-category="monastery">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/monastery-pillar.jpg" alt="Sacred Ashoka Stambha &amp; Monastery Pagoda" loading="lazy" data-full-src="assets/images/gallery/monastery-pillar.jpg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Sacred Ashoka Stambha &amp; Pagoda</h4>
-                <p class="gallery-desc">Golden Ashoka Pillar on lotus base in front of the main pavilion</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Real Image 2: Lion Capital -->
-          <div class="gallery-item reveal delay-200" data-category="monastery">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/ashoka-lion-capital.jpg" alt="Four-Headed Lion Capital of Ashoka" loading="lazy" data-full-src="assets/images/gallery/ashoka-lion-capital.jpg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Lion Capital of Ashoka</h4>
-                <p class="gallery-desc">Four-headed lion emblem carved on a lotus pedestal</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Real Image 3: Stupa & Pagoda -->
-          <div class="gallery-item reveal delay-300" data-category="monastery">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/pagoda-stupa.jpg" alt="Monastic Pagoda &amp; White Stupas" loading="lazy" data-full-src="assets/images/gallery/pagoda-stupa.jpg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">White Stupas &amp; Monastery Gardens</h4>
-                <p class="gallery-desc">Peaceful monastery campus with sacred stupas and green hedges</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Real Image 4: Buddha Statue & Flags -->
-          <div class="gallery-item reveal delay-100" data-category="events">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/buddha-statue-flags.jpg" alt="Lord Buddha Statue &amp; Prayer Flags" loading="lazy" data-full-src="assets/images/gallery/buddha-statue-flags.jpg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Golden Buddha &amp; Prayer Flags</h4>
-                <p class="gallery-desc">Monastery veranda adorned with sacred Buddhist prayer flags</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Real Image 5: Monastery Nature & Hills -->
-          <div class="gallery-item reveal delay-200" data-category="nature">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/monastery-nature-hills.jpg" alt="Pristine Forest Hill Sanctuary at Chaparda" loading="lazy" data-full-src="assets/images/gallery/monastery-nature-hills.jpg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Pristine Forest Hill Sanctuary</h4>
-                <p class="gallery-desc">Lush green forest hills surrounding Zhanangbhoomi at Chaparda</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Program & Vipassana Retreat Highlights -->
-          <div class="gallery-item reveal delay-300" data-category="programs">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/gallery-1.svg" alt="Morning Meditation Hall" loading="lazy" data-full-src="assets/images/gallery/gallery-1.svg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Morning Meditation Hall</h4>
-                <p class="gallery-desc">Quiet group meditation in the early dawn</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery-item reveal delay-100" data-category="vipassana">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/gallery-2.svg" alt="Vipassana Silent Retreat" loading="lazy" data-full-src="assets/images/gallery/gallery-2.svg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Vipassana Silent Retreat</h4>
-                <p class="gallery-desc">Noble silence under nature's canopy</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="gallery-item reveal delay-200" data-category="monastery">
-            <div class="gallery-card">
-              <img src="assets/images/gallery/gallery-3.svg" alt="Monastery Main Complex" loading="lazy" data-full-src="assets/images/gallery/gallery-3.svg">
-              <div class="gallery-overlay">
-                <h4 class="gallery-title">Monastery Main Complex</h4>
-                <p class="gallery-desc">Architectural harmony designed for meditation</p>
-              </div>
-            </div>
-          </div>
-
+        <!-- Main Gallery Render Container -->
+        <div id="gallery-content-area" class="reveal">
+          <!-- Dynamically populated by gallery.js (Albums or Photos) -->
         </div>
+
       </div>
     </section>
 
@@ -255,7 +189,7 @@
         <div>
           <h4 class="footer-heading" data-i18n="footer_contact_details">Contact Details</h4>
           <ul class="footer-links" style="font-size: 0.88rem;">
-            <li><strong>Location:</strong> <span class="js-address">Zhan Bhoomi, Chaparda, Taluka Kalamb, Dist. Yavatmal, Maharashtra - 445401</span></li>
+            <li><strong>Location:</strong> <span class="js-address">Zhan Bhoomi, Chaparda, Kalamb, Yavatmal, Maharashtra</span></li>
             <li><strong>Phone:</strong> <a href="tel:+919822946598" class="js-phone">+91 98229 46598 / +91 94213 39911</a></li>
             <li><strong>Email:</strong> <a href="mailto:contact@zhanangbhoomi.org" class="js-email">contact@zhanangbhoomi.org</a></li>
           </ul>
@@ -273,6 +207,7 @@
 
   <script src="assets/js/config.js"></script>
   <script src="assets/js/translations.js"></script>
+  <script src="assets/js/gallery-data.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/gallery.js"></script>
 </body>
