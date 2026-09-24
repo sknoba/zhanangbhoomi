@@ -50,7 +50,7 @@ const ZHANANG_CONFIG = {
     regNo: "Reg. No. 648/2008",
     bankName: "State Bank of India (भारतीय स्टेट बैंक)",
     accountNumber: "32748438276",
-    ifscCode: "00000000000",
+    ifscCode: "SBIN0000486",
     panNumber: "AACTM7290C",
     taxStatus: "80G Tax Exempt (80G के अंतर्गत करमुक्त)"
   }
