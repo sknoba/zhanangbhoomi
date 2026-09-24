@@ -29,8 +29,8 @@ const ZHANANG_CONFIG = {
   enquiryEmail: "courses@zhanangbhoomi.org",
 
   // Exact Location Details (Chaparda, Yavatmal, Maharashtra)
-  address: "Zhanangbhoomi, Maitreya Medical Meditation Monastery, Chaparda, Taluka Kalamb, District Yavatmal, Maharashtra - 445401, India",
-  locationMarathi: "ज्ञान भूमी, मैत्रेय मेडिकल मेडिटेशन मौनॉस्ट्री, चापर्डा, ता. कळंब, जि. यवतमाळ (महाराष्ट्र)",
+  address: "Zhan Bhoomi, Chaparda, Kalamb, Yavatmal, Maharashtra",
+  locationMarathi: "ज्ञान भूमी, चापर्डा, कळंब, यवतमाळ, महाराष्ट्र",
   googleMapsEmbedUrl: "https://maps.app.goo.gl/v7jAV742tUJyavh2A",
   googleMapsDirectionsUrl: "https://maps.app.goo.gl/v7jAV742tUJyavh2A",
 

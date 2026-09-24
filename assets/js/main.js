@@ -276,6 +276,11 @@ function initDynamicConfig() {
     link.target = "_blank";
     link.rel = "noopener noreferrer";
   });
+
+  const addressEls = document.querySelectorAll('.js-address');
+  addressEls.forEach(el => {
+    el.textContent = ZHANANG_CONFIG.address;
+  });
 }
 
 /* ==========================================================================

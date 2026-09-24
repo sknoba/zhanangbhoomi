@@ -21,7 +21,7 @@ const TRANSLATIONS = {
     // Brand Taglines
     site_subtitle: "Buddhist Meditation & Vipassana Centre",
     monastery_title: "Maitreya Medical Meditation Monastery",
-    monastery_location: "Chaparda, Taluka Kalamb, Dist. Yavatmal, Maharashtra",
+    monastery_location: "Zhan Bhoomi, Chaparda, Kalamb, Yavatmal, Maharashtra",
 
     // Hero Section
     hero_title: "ZHANANGBHOOMI",
@@ -176,7 +176,25 @@ const TRANSLATIONS = {
     footer_official_portal: "Official Portal",
     footer_contact_details: "Monastery Contact",
     footer_copyright: "© 2026 Zhanangbhoomi - Maitrey Bodh Sanstha. All Rights Reserved.",
-    metta_quote: '"May all beings be free from suffering. May all beings be happy and enlightened."'
+    metta_quote: '"May all beings be free from suffering. May all beings be happy and enlightened."',
+
+    // Gallery UI Strings
+    gallery_subtitle: "MONASTERY IN PICTURES",
+    gallery_title: "Monastery Photo Gallery",
+    filter_all: "All Collections",
+    filter_nature: "Nature & Forest",
+    filter_monastery: "Monastery & Architecture",
+    filter_monuments: "Monuments & Statues",
+    filter_events: "Events & Ceremonies",
+    filter_programs: "Meditation Programs",
+    filter_special_visits: "Special Person Visits",
+    gallery_view_albums: "Albums View",
+    gallery_view_photos: "All Photos Grid",
+    gallery_photos_count: "Photos",
+    gallery_back_to_albums: "← Back to All Albums",
+    gallery_search_placeholder: "Search albums or photos...",
+    gallery_no_results: "No albums found matching this filter.",
+    gallery_open_album: "Explore Album →"
   },
 
   hi: {
@@ -196,7 +214,7 @@ const TRANSLATIONS = {
     // Brand Taglines
     site_subtitle: "बौद्ध ध्यान एवं विपश्यना केंद्र",
     monastery_title: "मैत्रेय मेडिकल मेडिटेशन मौनॉस्ट्री",
-    monastery_location: "चापर्डा ता. कळंब जि. यवतमाळ (महाराष्ट्र)",
+    monastery_location: "ज्ञान भूमी, चापर्डा, कळंब, यवतमाळ, महाराष्ट्र",
 
     // Hero Section
     hero_title: "झानंगभूमि",
@@ -351,6 +369,24 @@ const TRANSLATIONS = {
     footer_official_portal: "आधिकारिक पोर्टल",
     footer_contact_details: "मठ संपर्क",
     footer_copyright: "© 2026 झानंगभूमि - मैत्रेय बोध संस्था। सर्वाधिकार सुरक्षित।",
-    metta_quote: '"सभी मनुष्य दुःखमुक्त होकर स्वस्थ, समर्थ, समृद्ध और प्रबुद्ध हों।"'
+    metta_quote: '"सभी मनुष्य दुःखमुक्त होकर स्वस्थ, समर्थ, समृद्ध और प्रबुद्ध हों।"',
+
+    // Gallery UI Strings
+    gallery_subtitle: "मठ फोटो गैलरी",
+    gallery_title: "पावन झलकियां एवं चित्र संग्रह",
+    filter_all: "सभी संग्रह",
+    filter_nature: "प्रकृति व परिसर",
+    filter_monastery: "मठ व स्थापत्य",
+    filter_monuments: "बौद्ध स्मारक व प्रतिमाएं",
+    filter_events: "समारोह व उत्सव",
+    filter_programs: "ध्यान व शिविर",
+    filter_special_visits: "विशिष्ट अतिथि व भिक्खू",
+    gallery_view_albums: "एल्बम संग्रह",
+    gallery_view_photos: "सभी फोटो ग्रिड",
+    gallery_photos_count: "फोटो",
+    gallery_back_to_albums: "← सभी एल्बम पर लौटें",
+    gallery_search_placeholder: "एल्बम या फोटो खोजें...",
+    gallery_no_results: "इस फ़िल्टर से कोई एल्बम नहीं मिला।",
+    gallery_open_album: "एल्बम देखें →"
   }
 };
