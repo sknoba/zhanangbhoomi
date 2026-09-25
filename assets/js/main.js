@@ -49,6 +49,7 @@ function initMobileNav() {
     navMenu.classList.add('active');
     if (backdrop) backdrop.classList.add('active');
     document.body.style.overflow = 'hidden';
+    document.documentElement.style.overflow = 'hidden';
   }
 
   function closeMenu() {
@@ -57,6 +58,7 @@ function initMobileNav() {
     navMenu.classList.remove('active');
     if (backdrop) backdrop.classList.remove('active');
     document.body.style.overflow = '';
+    document.documentElement.style.overflow = '';
   }
 
   toggleBtn.addEventListener('click', () => {
@@ -75,7 +77,7 @@ function initMobileNav() {
   const navLinks = navMenu.querySelectorAll('a');
   navLinks.forEach(link => {
     link.addEventListener('click', () => {
-      if (window.innerWidth <= 992) {
+      if (window.innerWidth <= 1100) {
         closeMenu();
       }
     });
